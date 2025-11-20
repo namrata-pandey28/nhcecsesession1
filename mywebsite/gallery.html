@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website - Gallery</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #007acc; color: white; padding: 1rem; }
+    nav a { color: white; margin-right: 1rem; text-decoration: none; }
+    main { padding: 1rem; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
+    .box { background: #ddd; padding: 1rem; height: 150px; display: flex; align-items: center; justify-content: center; }
+    footer { background: #f2f2f2; padding: 1rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gallery</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact us.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Photos</h2>
+    <div class="gallery">
+      <div class="box">Image 1</div>
+      <div class="box">Image 2</div>
+      <div class="box">Image 3</div>
+      <div class="box">Image 4</div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 My Website
+  </footer>
+</body>
+</html>
